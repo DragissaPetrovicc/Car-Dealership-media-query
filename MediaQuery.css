@@ -1,0 +1,182 @@
+
+    @media  screen and (max-width: 768px) {
+    html {
+        height: 100%;
+    }
+    body {
+        margin: 130px 80px;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .header{
+        display: none;
+    }
+    .tekst{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+    .phone-katalog{
+        display: flex;
+        font-size: 30px;
+        font-weight: bold;
+        gap: 15px;
+    }
+    
+    .polja-kataloga{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .merc{
+        width: 80%;
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+}
+    @media  screen and (min-width: 768px) {
+        html {
+            height: 100%;
+        }
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .header{
+            padding-right: 15px;
+            width: 100%;
+            height: 300px;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .title{
+            
+            padding-left: 15px;
+            font-size: 20px;
+        }
+        .icon{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            padding-right: 20px;
+        }
+        .phone-katalog{
+            display: none;
+            
+        }
+        .tekst{
+            padding: 15px 30px;
+            font-size: 15px;
+            text-align: left;
+        }
+        .polja-kataloga{
+            padding-top: 20px;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .merc{
+            width: 500x;
+            padding: 15px 20px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 5px 30px;
+            background: fixed;
+        
+        } 
+          img{
+            width: 150px;
+            object-fit: cover;
+            
+         } 
+        
+
+}
+@media  screen and (min-width: 992px) {
+    html {
+        height: 100%;
+    }
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .header{
+        padding-right: 15px;
+        width: 100%;
+        height: 300px;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title{
+        
+        padding-left: 30px;
+        font-size: 40px;
+    }
+    .icon{
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+        padding-right: 30px;
+    }
+    .phone-katalog{
+        display: none;
+        
+    }
+    .tekst{
+        padding: 50px 50px;
+        font-size: 25px;
+        text-align: left;
+    }
+    .polja-kataloga{
+        padding-top: 20px;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        
+    }
+    .merc{
+        width: 500x;
+        padding: 15px 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 3px 3px;
+        font-size: 18px;
+    
+    } 
+      img{
+        position:static;
+        width: 150px;
+        object-fit: cover;
+        
+     } 
+    
+
+}
+    
+
